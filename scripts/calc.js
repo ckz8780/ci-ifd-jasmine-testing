@@ -5,8 +5,7 @@ Calculator = function() {
 
 Calculator.prototype.add = function(number) {
     if(typeof(number) == 'number'){
-        this.value += 'number';
-        console.log(this.value);
+        this.value += number;
     } else {
         alert('Argument must be a number');
     }

@@ -19,4 +19,3 @@ function addition(numOne, numTwo) {
         alert('Both arguments must be numbers');
     }
 }
-
